@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>images and text boxs</title>
+    <style>
+      body{
+        padding-top: 20px;
+      }
+      img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+
+      .box{
+        font-size: 18px;
+        border: none;
+      }
+
+      .box:focus{
+        outline: none;
+        box-shadow: 0 0 5px rgba(29,155,240,0.5);
+      }
+
+      .tweet{
+        border: none;
+        color: white;
+        background-color: rgb(29, 155,240);
+        font-size: 16px;
+        border-radius: 30px;
+        padding: 8px 16px;
+        font-weight: bold;
+        vertical-align: middle;
+      }
+      </style>
+  </head>
+  <body>
+    <img src="pikachu.jpg" alt="Pikachu">
+    <input type="text" 
+    class="box" 
+    placeholder="What's happening?">
+    <button class="tweet">
+      Tweet
+    </button>
+  </body>
+</html>
